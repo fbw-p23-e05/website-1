@@ -14,10 +14,21 @@
       }
 
       .importantbox {
-        border: 2px solid black;
+        border: 2px solid rgb(185, 148, 26);
         margin: 40px;
         padding: 40px;
       }
+      div {
+  
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
     </style>
   </head>
   <body>
@@ -52,5 +63,6 @@
       <!-- Form method of get and the url is the action (https://ddh.gg) and the input element name is "q", so the url will be https://ddh.gg/?q=something -->
       <button>Search</button>
     </form>
+    
   </body>
 </html>
